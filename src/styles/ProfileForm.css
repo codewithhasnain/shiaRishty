@@ -1,0 +1,157 @@
+/* ProfileForm CSS */
+.profile-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.profile-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.profile-form div {
+  margin-bottom: 15px;
+}
+
+.profile-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form input[type="date"],
+.profile-form .react-select-container {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.react-select-container .react-select__control {
+  border: 1px solid #ccc;
+  font-size: 1em;
+  min-height: 40px;
+}
+
+.react-select-container .react-select__control:hover {
+  border-color: #007bff;
+}
+
+.react-select-container .react-select__menu {
+  z-index: 5;
+}
+
+.profile-form input[type="radio"] {
+  margin-right: 8px;
+}
+
+.profile-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.profile-form button:hover {
+  background-color: #0056b3;
+}
+
+.profile-form p {
+  color: red;
+  font-size: 0.9em;
+  margin: 5px 0 0;
+}
+
+/* Additional Styles (if not already added) */
+.profile-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.profile-form .profile-image-upload {
+  display: flex;
+  align-items: center;
+}
+
+.profile-form .profile-image-upload input[type="file"] {
+  margin-right: 10px;
+}
+
+/* Checkbox Group in Rows and Columns */
+.profile-form .checkbox-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust as necessary */
+  gap: 10px;
+}
+
+.profile-form .checkbox-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Textboxes - Additional Style */
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form input[type="date"],
+.profile-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1em;
+  margin-top: 5px;
+  transition: border-color 0.3s;
+}
+
+.profile-form input[type="text"]:focus,
+.profile-form input[type="email"]:focus,
+.profile-form input[type="date"]:focus,
+.profile-form textarea:focus {
+  border-color: #007bff;
+}
+
+/* Textarea specific */
+.profile-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-form {
+    padding: 15px;
+  }
+
+  .profile-form h2 {
+    font-size: 1.5em;
+  }
+
+  .profile-form button {
+    font-size: 1em;
+  }
+
+  .profile-form .checkbox-group {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust for smaller screens */
+  }
+}

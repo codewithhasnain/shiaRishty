@@ -1,0 +1,29 @@
+.serving-communities {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .serving-communities h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start; /* Align left image at the top */
+  }
+  
+  .left-image {
+    width: 600px;
+    height: auto;
+  }
+  
+  .right-image {
+    width: 600px;
+    height: auto;
+    transform: translateY(60px); 
+  }
+  

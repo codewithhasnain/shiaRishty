@@ -1,0 +1,70 @@
+/* Overall layout for the admin dashboard */
+.admin-dashboard {
+  display: flex;
+  flex-direction: column; /* Stack the header and main content vertically */
+  height: 100vh;
+  background-color: #f4f7fc;
+}
+
+/* Header section - centered */
+.admin-dashboard h1 {
+  text-align: center;  /* Center align the header */
+  margin: 0;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 2rem;
+  color: #333;
+  border-bottom: 2px solid #ddd; /* Optional border under header */
+}
+
+/* Main content section with sidebar and data */
+.admin-dashboard-main {
+  display: flex; /* Use flexbox to layout buttons and content */
+  flex: 1;
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+/* Sidebar containing the buttons */
+.admin-dashboard-buttons {
+  width: 200px; /* Set the width for the sidebar */
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.admin-dashboard-buttons button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px solid #555;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-dashboard-buttons button:hover {
+  background-color: #555;
+}
+
+.admin-dashboard-buttons button svg {
+  margin-right: 10px;
+}
+
+/* Content section that displays the selected view */
+.admin-dashboard-content {
+  flex: 1; /* Make content area take remaining space */
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+/* Optional styling for the content inside the admin dashboard */
+.admin-dashboard-content > * {
+  margin-bottom: 20px;
+}

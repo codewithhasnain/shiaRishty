@@ -1,0 +1,67 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-us-header {
+    background-color: #0b0f31; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .about-us-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-us-text {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .about-us-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-image {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .foreground-image {
+    position: absolute;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

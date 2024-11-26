@@ -1,0 +1,130 @@
+.manage-profiles {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-profiles h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .manage-profiles table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-profiles table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .manage-profiles table th,
+  .manage-profiles table td {
+    padding: 12px 16px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .manage-profiles table th {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  
+  .manage-profiles table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .manage-profiles table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .manage-profiles table tbody tr td {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .manage-profiles button {
+    margin: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .manage-profiles button:hover {
+    background-color: #0056b3;
+  }
+  
+  .manage-profiles button:active {
+    background-color: #004080;
+  }
+  
+  .manage-profiles button.delete {
+    background-color: #dc3545;
+  }
+  
+  .manage-profiles button.delete:hover {
+    background-color: #b02a37;
+  }
+  
+  .manage-profiles button.delete:active {
+    background-color: #801f27;
+  }
+  
+  .manage-profiles p {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .manage-profiles table {
+      font-size: 12px;
+    }
+  
+    .manage-profiles table th,
+    .manage-profiles table td {
+      padding: 8px 10px;
+    }
+  
+    .manage-profiles button {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
+  .manage-profiles {
+    padding: 20px;
+  }
+  
+  .filter-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #0056b3;
+  }
+  

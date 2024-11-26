@@ -1,0 +1,29 @@
+.footer {
+    background-color: rgb(191, 163, 113);
+    color: #000;
+    text-align: center;
+    padding: 50px 200px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+    font-size: 12px;
+  }
+  
